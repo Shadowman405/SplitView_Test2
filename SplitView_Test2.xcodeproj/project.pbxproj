@@ -14,6 +14,8 @@
 		BF5910D32765422C00FF0DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5910D22765422C00FF0DA1 /* Assets.xcassets */; };
 		BF5910D62765422C00FF0DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5910D42765422C00FF0DA1 /* LaunchScreen.storyboard */; };
 		BF5910DE2765428B00FF0DA1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5910DD2765428B00FF0DA1 /* Model.swift */; };
+		BF5910E12765645F00FF0DA1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5910E02765645E00FF0DA1 /* MasterViewController.swift */; };
+		BF5910E3276566CA00FF0DA1 /* SecondaryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5910E2276566CA00FF0DA1 /* SecondaryPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BF5910D52765422C00FF0DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5910D72765422C00FF0DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5910DD2765428B00FF0DA1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF5910E02765645E00FF0DA1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BF5910E2276566CA00FF0DA1 /* SecondaryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,26 @@
 		BF5910C82765421A00FF0DA1 /* SplitView_Test2 */ = {
 			isa = PBXGroup;
 			children = (
-				BF5910C92765421A00FF0DA1 /* AppDelegate.swift */,
-				BF5910CB2765421A00FF0DA1 /* SceneDelegate.swift */,
+				BF5910DF276561F300FF0DA1 /* Supprting Files */,
 				BF5910CD2765421A00FF0DA1 /* ViewController.swift */,
 				BF5910CF2765421A00FF0DA1 /* Main.storyboard */,
+				BF5910E02765645E00FF0DA1 /* MasterViewController.swift */,
+				BF5910E2276566CA00FF0DA1 /* SecondaryPageViewController.swift */,
+			);
+			path = SplitView_Test2;
+			sourceTree = "<group>";
+		};
+		BF5910DF276561F300FF0DA1 /* Supprting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5910C92765421A00FF0DA1 /* AppDelegate.swift */,
+				BF5910CB2765421A00FF0DA1 /* SceneDelegate.swift */,
 				BF5910D22765422C00FF0DA1 /* Assets.xcassets */,
 				BF5910D42765422C00FF0DA1 /* LaunchScreen.storyboard */,
 				BF5910D72765422C00FF0DA1 /* Info.plist */,
 				BF5910DD2765428B00FF0DA1 /* Model.swift */,
 			);
-			path = SplitView_Test2;
+			path = "Supprting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5910E12765645F00FF0DA1 /* MasterViewController.swift in Sources */,
 				BF5910CE2765421A00FF0DA1 /* ViewController.swift in Sources */,
 				BF5910CA2765421A00FF0DA1 /* AppDelegate.swift in Sources */,
 				BF5910CC2765421A00FF0DA1 /* SceneDelegate.swift in Sources */,
+				BF5910E3276566CA00FF0DA1 /* SecondaryPageViewController.swift in Sources */,
 				BF5910DE2765428B00FF0DA1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGNXB64TGD;
-				INFOPLIST_FILE = SplitView_Test2/Info.plist;
+				INFOPLIST_FILE = "SplitView_Test2/Supprting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGNXB64TGD;
-				INFOPLIST_FILE = SplitView_Test2/Info.plist;
+				INFOPLIST_FILE = "SplitView_Test2/Supprting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

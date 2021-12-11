@@ -7,3 +7,7 @@
 
 import UIKit
 
+struct Animal {
+    let name: String
+    let speed: Int
+}
